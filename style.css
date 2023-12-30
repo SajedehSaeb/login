@@ -1,0 +1,39 @@
+.body-login{
+    background-color: rgb(50, 50, 50);
+    height: 100vh;
+}
+
+.login-form{
+    box-shadow: 0 0 15px #474747;
+    border-radius: 15px;
+    background-color: rgb(50, 50, 50);
+}
+
+.btn-style{
+    /* box-shadow: 0 0 8px rgba(71, 93, 236, 0.756); */
+    /* background-color:#7259ff; */
+    background-image: linear-gradient(90deg , #7259ff , #654bf8);
+    padding: 10px;
+}
+
+.btn-style:hover{
+    background-image: linear-gradient(90deg , #654bf8 , #7259ff);
+    border:2px solid #7259ff;
+}
+
+.input-style{
+    background-color: rgb(57, 57, 57);
+    padding: 12px;
+    border: none;
+}
+
+.input-style{
+    background-color: rgb(57, 57, 57);
+    padding: 12px;
+    border: none;
+}
+
+.login-form .input-style:focus{
+    background-color: rgb(57, 57, 57);
+    outline: none !important;
+}
